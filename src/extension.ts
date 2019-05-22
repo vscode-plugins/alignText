@@ -16,6 +16,9 @@ async function alignTokens(textEditor: vscode.TextEditor,
                                  value: '=' }).then(token => {
         if (token !== undefined && token.length > 0) {
             let selection = textEditor.selection;
+            if (selection.start.line === selection.end.line) {
+                selection = new vscode.Selection(0, 0, textEditor.document.lineCount - 1, 0);
+            }
 
             let farthestPosition = findFarthestPosition(selection, token);
             if (farthestPosition !== -1) {
