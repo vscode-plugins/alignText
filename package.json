@@ -21,10 +21,10 @@
     "publisher": "SergeLamikhov",
     "license": "See license in LICENSE.txt",
     "bugs": {
-        "url": "https://github.com/vscode-plugins/MultiLanguageHelloWorld/issues"
+        "url": "https://github.com/vscode-plugins/alignText/issues"
     },
     "repository": {
-        "url": "https://github.com/vscode-plugins/MultiLanguageHelloWorld"
+        "url": "https://github.com/vscode-plugins/alignText"
     },
     "activationEvents": [
         "onCommand:extension.alignTokens"
