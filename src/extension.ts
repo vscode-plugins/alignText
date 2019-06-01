@@ -16,6 +16,8 @@ async function alignTokens(textEditor: vscode.TextEditor,
                                  value: '=' }).then(token => {
         if (token !== undefined && token.length > 0) {
             let selection = textEditor.selection;
+
+            // If there is no selection, do the job for the whole file
             if (selection.start.line === selection.end.line) {
                 selection = new vscode.Selection(0, 0, textEditor.document.lineCount - 1, 0);
             }

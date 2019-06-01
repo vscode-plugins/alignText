@@ -1,4 +1,4 @@
-# alignText README
+# Align Text for selected lines 
 
 VS Code extension "alignText"
 
@@ -6,12 +6,11 @@ VS Code extension "alignText"
 
 The extension permits to align specific text token within selected lines
 
-
 ![alt text](alignText.gif)
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Initial, but, functional version
 
 ### 1.0.0
 - Initial version

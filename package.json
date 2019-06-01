@@ -1,38 +1,55 @@
 {
-	"name": "aligntokens",
-	"displayName": "Align Text Tokens",
-	"description": "",
-	"version": "0.0.1",
-	"engines": {
-		"vscode": "^1.33.0"
-	},
-	"categories": [
-		"Other"
-	],
-	"activationEvents": [
-		"onCommand:extension.alignTokens"
-	],
-	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "extension.alignTokens",
-				"title": "Align Text Tokens"
-			}
-		]
-	},
-	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"test": "npm run compile && node ./node_modules/vscode/bin/test"
-	},
-	"devDependencies": {
-		"typescript": "^3.3.1",
-		"vscode": "^1.1.28",
-		"tslint": "^5.12.1",
-		"@types/node": "^10.12.21",
-		"@types/mocha": "^2.2.42"
-	}
+    "name": "aligntokens",
+    "displayName": "Align Text Tokens",
+    "description": "The extension permits to align specific text token within selected lines",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "icon": "alignTextIcon.gif",
+    "categories": [
+        "Formatters",
+        "Other"
+    ],
+    "keywords": [
+        "Align",
+        "Format",
+        "Text",
+        "Code",
+        "Indent"
+    ],
+    "publisher": "SergeLamikhov",
+    "license": "See license in LICENSE.txt",
+    "bugs": {
+        "url": "https://github.com/vscode-plugins/MultiLanguageHelloWorld/issues"
+    },
+    "repository": {
+        "url": "https://github.com/vscode-plugins/MultiLanguageHelloWorld"
+    },
+    "activationEvents": [
+        "onCommand:extension.alignTokens"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.alignTokens",
+                "title": "Align Text Tokens"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^3.3.1",
+        "vscode": "^1.1.28",
+        "tslint": "^5.12.1",
+        "@types/node": "^10.12.21",
+        "@types/mocha": "^2.2.42"
+    }
 }
