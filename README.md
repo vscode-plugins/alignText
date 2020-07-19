@@ -1,18 +1,23 @@
 # Align Text for selected lines 
 
-VS Code extension "alignText"
+[![vsm-version](https://img.shields.io/visual-studio-marketplace/v/SergeLamikhov.aligntokens?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=SergeLamikhov.aligntokens)
+[![vsm-downloads](https://img.shields.io/visual-studio-marketplace/d/SergeLamikhov.aligntokens?style=flat-square&label=downloads&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=SergeLamikhov.aligntokens)
+[![vsm-rating](https://img.shields.io/visual-studio-marketplace/r/SergeLamikhov.aligntokens?style=flat-square&label=rating&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=SergeLamikhov.aligntokens)
+[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-## Features
+## VS Code extension "alignText"
+
+### Features
 
 The extension permits to align specific text token within selected lines
 
 ![alt text](alignText.gif)
 
-## Release Notes
+### Release Notes
 
 Initial, but, functional version
 
-### 1.0.0
+#### 1.0.0
 - Initial version
 
 **Enjoy!**
