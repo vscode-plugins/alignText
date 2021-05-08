@@ -2,7 +2,7 @@
     "name": "aligntokens",
     "displayName": "Align Text Tokens",
     "description": "The extension permits to align specific text token within selected lines",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "engines": {
         "vscode": "^1.20.0"
     },

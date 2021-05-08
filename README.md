@@ -17,7 +17,7 @@ The extension permits to align specific text token within selected lines
 
 Initial, but, functional version
 
-#### 1.0.4
+#### 1.0.5
 
 - Dependency packages update
 
