@@ -2,7 +2,7 @@
     "name": "aligntokens",
     "displayName": "Align Text Tokens",
     "description": "The extension permits to align specific text token within selected lines",
-    "version": "1.0.7",
+    "version": "1.0.9",
     "engines": {
         "vscode": "^1.20.0"
     },
@@ -30,6 +30,7 @@
         "onCommand:extension.alignTokens"
     ],
     "main": "./out/extension.js",
+    "browser": "./out/extension.js",
     "contributes": {
         "commands": [
             {

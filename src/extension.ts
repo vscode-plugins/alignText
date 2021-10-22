@@ -19,7 +19,7 @@ async function alignTokens(textEditor: vscode.TextEditor,
             let selections = textEditor.selections;
 
             // If there is no selection, do the job for the whole file
-            if (selections.length == 1 && selections[0].start.line === selections[0].end.line) {
+            if (selections.length === 1 && selections[0].start.line === selections[0].end.line) {
                 selections[0] = new vscode.Selection(0, 0, textEditor.document.lineCount - 1, 0);
             }
 
